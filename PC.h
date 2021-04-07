@@ -22,6 +22,12 @@ public:
 	//default constructor
 	PC();
 
+	//Member Functions
+
+	//used to set race of PC
+	string set_race(string _race);
+	//used to set Class of PC
+	string set_class(string _class);
 
 
 
