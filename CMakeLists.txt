@@ -3,4 +3,4 @@ project(CS202_Group_Project)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS202_Group_Project main.cpp)
+add_executable(CS202_Group_Project main.cpp  "PC.h" "PC.cpp")
