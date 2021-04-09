@@ -1,10 +1,17 @@
 #include <iostream>
+#include "Skill.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "CS202 Group Project with Travis, Michael, Galen, and Jason" << std::endl;
-    std::cout << "Hello!, this is form travis!" << std::endl;
-    std::cout << "Test edit by Jason" << std::endl;
-    std::cout << "Test from Galen" << std::endl;
+
+    Alchemy alchemy;
+    alchemy.setKnown(true);
+    if(alchemy.isKnown()){
+        std::cout << "The Character knows Alchemy" << std::endl;
+    }
+    alchemy.setDisabled(false);
+    if(alchemy.isKnown())
+        std::cout << "The Character Alchemy is Disabled" << std::endl;
+
+
     return 0;
 }

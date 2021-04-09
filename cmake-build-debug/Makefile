@@ -43,10 +43,10 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "C:\Dev\CS202 Group Project\cmake-build-debug"
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -74,7 +74,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -127,6 +127,60 @@ CS202_Group_Project\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\build
 .PHONY : CS202_Group_Project\fast
 
+PC.obj: PC.cpp.obj
+
+.PHONY : PC.obj
+
+# target to build an object file
+PC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\PC.cpp.obj
+.PHONY : PC.cpp.obj
+
+PC.i: PC.cpp.i
+
+.PHONY : PC.i
+
+# target to preprocess a source file
+PC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\PC.cpp.i
+.PHONY : PC.cpp.i
+
+PC.s: PC.cpp.s
+
+.PHONY : PC.s
+
+# target to generate assembly for a file
+PC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\PC.cpp.s
+.PHONY : PC.cpp.s
+
+Skill.obj: Skill.cpp.obj
+
+.PHONY : Skill.obj
+
+# target to build an object file
+Skill.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\Skill.cpp.obj
+.PHONY : Skill.cpp.obj
+
+Skill.i: Skill.cpp.i
+
+.PHONY : Skill.i
+
+# target to preprocess a source file
+Skill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\Skill.cpp.i
+.PHONY : Skill.cpp.i
+
+Skill.s: Skill.cpp.s
+
+.PHONY : Skill.s
+
+# target to generate assembly for a file
+Skill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CS202_Group_Project.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\CS202_Group_Project.dir\Skill.cpp.s
+.PHONY : Skill.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +217,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CS202_Group_Project
+	@echo ... PC.obj
+	@echo ... PC.i
+	@echo ... PC.s
+	@echo ... Skill.obj
+	@echo ... Skill.i
+	@echo ... Skill.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

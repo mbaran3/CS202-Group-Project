@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Dev/CS202 Group Project/PC.cpp" "C:/Dev/CS202 Group Project/cmake-build-debug/CMakeFiles/CS202_Group_Project.dir/PC.cpp.obj"
+  "C:/Dev/CS202 Group Project/Skill.cpp" "C:/Dev/CS202 Group Project/cmake-build-debug/CMakeFiles/CS202_Group_Project.dir/Skill.cpp.obj"
   "C:/Dev/CS202 Group Project/main.cpp" "C:/Dev/CS202 Group Project/cmake-build-debug/CMakeFiles/CS202_Group_Project.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

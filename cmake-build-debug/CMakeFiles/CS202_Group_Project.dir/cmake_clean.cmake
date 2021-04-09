@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/CS202_Group_Project.dir/PC.cpp.obj"
+  "CMakeFiles/CS202_Group_Project.dir/Skill.cpp.obj"
   "CMakeFiles/CS202_Group_Project.dir/main.cpp.obj"
   "CS202_Group_Project.exe"
   "CS202_Group_Project.exe.manifest"
