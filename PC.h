@@ -23,19 +23,21 @@ public:
 	PC();
 
 	//Member Functions
+	int setGold(int gold);
+	int setEXP(int exp);
+	int setSTM(int stm);
 
-	//used to set race of PC
-	string set_race(string _race);
-	//used to set Class of PC
-	string set_class(string _class);
+	int checkGold();
+	int checkSTM();
+
+
 
 
 
 private:
 	//_EXP(Experience), _STM(Stamina_, _GOLD(Gold)
 	int _EXP, _STM, _GOLD;
-	//Race & Class of of Player Character
-	string _RACE, _CLASS;
+
 
 
 

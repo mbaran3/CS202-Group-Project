@@ -12,15 +12,15 @@ PC::PC() {
 
 }
 
-//Function to set race of PC
-string PC::set_race(string race) {
-	_RACE = race;
+//Member functions for character class
+int PC::setEXP(int exp) {
 
 }
 
-//Functeion to set class of PC
-string PC::set_class(string _class){
-	_CLASS = (_class);
+int PC::setGold(int gold ) {
+
 }
 
+int PC::setSTM(int stm) {
 
+}
