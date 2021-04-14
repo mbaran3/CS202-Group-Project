@@ -1,6 +1,6 @@
 #pragma once
-#ifndef PC_H
-#define PC_H
+#ifndef CS202_GROUP_PROJECT_PC_H
+#define CS202_GROUP_PROJECT_PC_H
 
 #include<string>
 #include<vector>
