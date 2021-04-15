@@ -3,9 +3,10 @@
 
 int main() {
 
+
     //Creates a PC
     PC exampleCharacter;
-
+  
     //Prints the description of archery from the character creation book.
     std::cout << Archery::description << std::endl;
 
@@ -23,6 +24,8 @@ int main() {
     if(exampleCharacter.archery.isDisabled()){
         std::cout << "The archery skill is Disabled" << std::endl;
     }
+
+
 
 
     return 0;
