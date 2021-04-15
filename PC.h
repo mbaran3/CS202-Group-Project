@@ -1,6 +1,6 @@
 #pragma once
-#ifndef PC_H
-#define PC_H
+#ifndef CS202_GROUP_PROJECT_PC_H
+#define CS202_GROUP_PROJECT_PC_H
 
 #include<string>
 #include<vector>
@@ -23,18 +23,14 @@ public:
 	PC();
 
 	//Member Functions
+	int setGold(int gold);
+	int setEXP(int exp);
+	int setSTM(int stm);
 
-	//used to set race of PC
-	void set_race(string _race);
-	//used to set Class of PC
-	void set_class(string _class);
-
-private:
-	//_EXP(Experience), _STM(Stamina_, _GOLD(Gold)
-	int _EXP, _STM, _GOLD;
-	//Race & Class of of Player Character
-	string _RACE, _CLASS;
+	int checkGold();
+	int checkSTM();
     
+
 };
 
 #endif
