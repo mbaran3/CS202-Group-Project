@@ -3,9 +3,16 @@
 
 CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o: ../Character_Creation.cpp
 CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o: ../PC.h
+CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o: ../Skill.hpp
 
 CMakeFiles/CS202_Group_Project.dir/PC.cpp.o: ../PC.cpp
 CMakeFiles/CS202_Group_Project.dir/PC.cpp.o: ../PC.h
+CMakeFiles/CS202_Group_Project.dir/PC.cpp.o: ../Skill.hpp
 
+CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o: ../Skill.cpp
+CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o: ../Skill.hpp
+
+CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../PC.h
+CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../main.cpp
 

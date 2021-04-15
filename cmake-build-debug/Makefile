@@ -196,6 +196,33 @@ PC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/PC.cpp.s
 .PHONY : PC.cpp.s
 
+Skill.o: Skill.cpp.o
+
+.PHONY : Skill.o
+
+# target to build an object file
+Skill.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o
+.PHONY : Skill.cpp.o
+
+Skill.i: Skill.cpp.i
+
+.PHONY : Skill.i
+
+# target to preprocess a source file
+Skill.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Skill.cpp.i
+.PHONY : Skill.cpp.i
+
+Skill.s: Skill.cpp.s
+
+.PHONY : Skill.s
+
+# target to generate assembly for a file
+Skill.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Skill.cpp.s
+.PHONY : Skill.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -238,6 +265,9 @@ help:
 	@echo "... PC.o"
 	@echo "... PC.i"
 	@echo "... PC.s"
+	@echo "... Skill.o"
+	@echo "... Skill.i"
+	@echo "... Skill.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

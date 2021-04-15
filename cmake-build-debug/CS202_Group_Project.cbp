@@ -94,6 +94,12 @@
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/PC.h">
 			<Option target="CS202_Group_Project"/>
 		</Unit>
+		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Skill.cpp">
+			<Option target="CS202_Group_Project"/>
+		</Unit>
+		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Skill.hpp">
+			<Option target="CS202_Group_Project"/>
+		</Unit>
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/main.cpp">
 			<Option target="CS202_Group_Project"/>
 		</Unit>
