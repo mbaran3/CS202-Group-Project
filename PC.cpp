@@ -24,3 +24,4 @@ int PC::setGold(int gold ) {
 int PC::setSTM(int stm) {
 
 }
+
