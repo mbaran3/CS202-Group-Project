@@ -5,6 +5,7 @@
 #include<string>
 #include<vector>
 #include<iostream>
+#include "Skill.hpp"
 
 using std::endl;
 using std::cout;
@@ -18,6 +19,12 @@ using std::vector;
 class PC
 {
 public:
+
+    Military military;
+    Agility agility;
+    Alchemy alchemy;
+    Arcana arcana;
+    Archery archery;
 
 	//default constructor
 	PC();
