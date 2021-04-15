@@ -29,19 +29,7 @@ public:
 
 	int checkGold();
 	int checkSTM();
-
-
-
-
-
-private:
-	//_EXP(Experience), _STM(Stamina_, _GOLD(Gold)
-	int _EXP, _STM, _GOLD;
-
-
-
-
-
+    
 
 };
 
