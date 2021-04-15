@@ -1,12 +1,32 @@
 #include <iostream>
+#include "PC.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "CS202 Group Project with Travis, Michael, Galen, and Jason" << std::endl;
-    std::cout << "Hello!, this is form travis!" << std::endl;
-    std::cout << "Test edit by Jason" << std::endl;
-    std::cout << "Test from Galen" << std::endl;
 
-    
+
+    //Creates a PC
+    PC exampleCharacter;
+  
+    //Prints the description of archery from the character creation book.
+    std::cout << Archery::description << std::endl;
+
+    //Sets archery known to true
+    //setKnown requires a true or false
+    exampleCharacter.archery.setKnown(true);
+
+    if(exampleCharacter.archery.isKnown()){
+        std::cout << "You know archery" << std::endl;
+    }
+
+    //Sets archery to disabled after the skill is used
+    //setDisabled also requires a true or false
+    exampleCharacter.archery.setDisabled(true);
+    if(exampleCharacter.archery.isDisabled()){
+        std::cout << "The archery skill is Disabled" << std::endl;
+    }
+
+
+
+
     return 0;
 }
