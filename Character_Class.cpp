@@ -50,3 +50,21 @@ bool Bard::requiredSkill(PC &player) const {
     else
         return false;
 }
+
+bool Brawler::requiredSkill(PC &player) const {
+    int counter = 0;
+    if(player.athletics.isKnown())
+        counter++;
+    if(player.endurance.isKnown())
+        counter++;
+    if(player.dueling.isKnown())
+        counter++;
+    if(player.streetwise.isKnown())
+        counter++;
+    if(player.willpower.isKnown())
+        counter++;
+    if(counter > 2)
+        return true;
+    else
+        return false;
+}

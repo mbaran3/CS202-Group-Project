@@ -44,7 +44,8 @@ private:
 };
 
 class Brawler : public Character_Class{
-
+public:
+    bool requiredSkill(PC& player) const override;
 private:
 	std::string _description = "Self-taught fighters of hand to hand combat, Many brawlers make a living either through \n fighting for spectecal or offering their services as \n bodygaurds. Some even take up bounty hunting";
 };

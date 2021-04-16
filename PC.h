@@ -23,6 +23,7 @@ public:
 
     Character_Class *charClass;
     Military military;
+    Dueling dueling;
     Agility agility;
     Alchemy alchemy;
     Arcana arcana;
