@@ -13,7 +13,7 @@ class Character_Class {
 public:
 
 	void printDescription();
-	virtual void requiredSkill(PC& player) const;
+	virtual bool requiredSkill(PC& player) const;
 
 protected:
 
@@ -28,13 +28,16 @@ private:
 class Apothecary : public Character_Class{
 
 public:
-    void requiredSkill(PC& player) const override;
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "Apothecaries ply their trade in many of the towns and Villages of Terrinoth. \n They brew curative potions and other alchemical concoctions, using \n their knowledge of herbs, minberals and other \n chemicals to great effect. ";
 };
 
 class Bard : public Character_Class{
+
+public:
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "Trained at Bardic colleges, Bards learn dozens of instruments, songs, sagas, and scrapes of lore \n to perform and entertain audiences. They also have access \n to bardic magic, allowing them to give aid in healing \n thoguh songs.";

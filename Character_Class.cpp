@@ -4,11 +4,13 @@
 void Character_Class::printDescription() {
     cout << _description;
 }
-void Character_Class::requiredSkill(PC &player) const{
+bool Character_Class::requiredSkill(PC &player) const{
     cout   << "No  class set" << endl;
 }
-void Apothecary::requiredSkill(PC &player) const {
+bool Apothecary::requiredSkill(PC &player) const {
+
     int counter = 0;
+
     if(player.alchemy.isKnown())
         counter++;
     if(player.craftsmanship.isKnown())
@@ -20,7 +22,31 @@ void Apothecary::requiredSkill(PC &player) const {
     if(player.arcana.isKnown())
         counter++;
     if(counter > 2)
-        cout << "You have all the required skills" << endl;
+        cout << "You have all the required skills for the class" << endl;
     else
         cout << "You do not have required skills" << endl;
+}
+
+bool Bard::requiredSkill(PC &player) const {
+
+    int counter = 0;
+
+    if(player.deception.isKnown())
+        counter++;
+    if(player.performance.isKnown())
+        counter++;
+    if(player.deception.isKnown())
+        counter++;
+    if(player.empathy.isKnown())
+        counter++;
+    if(player.persuasion.isKnown())
+        counter++;
+    if(player.streetwise.isKnown())
+        counter++;
+    if(player.history.isKnown())
+        counter++;
+    if(counter > 2)
+       return true;
+    else
+        return false;
 }
