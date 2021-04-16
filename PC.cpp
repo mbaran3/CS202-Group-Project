@@ -12,7 +12,9 @@ PC::PC() {
 
 }
 
-
+void PC::setClass(Character_Class *setClass) {
+    charClass = setClass;
+}
 //Member functions for character class
 int PC::setEXP(int exp) {
     return exp;

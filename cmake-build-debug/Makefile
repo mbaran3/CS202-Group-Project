@@ -142,6 +142,33 @@ CS202_Group_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/build
 .PHONY : CS202_Group_Project/fast
 
+Character_Class.o: Character_Class.cpp.o
+
+.PHONY : Character_Class.o
+
+# target to build an object file
+Character_Class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o
+.PHONY : Character_Class.cpp.o
+
+Character_Class.i: Character_Class.cpp.i
+
+.PHONY : Character_Class.i
+
+# target to preprocess a source file
+Character_Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.i
+.PHONY : Character_Class.cpp.i
+
+Character_Class.s: Character_Class.cpp.s
+
+.PHONY : Character_Class.s
+
+# target to generate assembly for a file
+Character_Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.s
+.PHONY : Character_Class.cpp.s
+
 Character_Creation.o: Character_Creation.cpp.o
 
 .PHONY : Character_Creation.o
@@ -259,6 +286,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS202_Group_Project"
+	@echo "... Character_Class.o"
+	@echo "... Character_Class.i"
+	@echo "... Character_Class.s"
 	@echo "... Character_Creation.o"
 	@echo "... Character_Creation.i"
 	@echo "... Character_Creation.s"

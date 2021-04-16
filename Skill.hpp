@@ -10,6 +10,7 @@
 class Skill {
 
 public:
+
     bool isKnown();
     bool isDisabled();
     void setKnown(bool setTo);
