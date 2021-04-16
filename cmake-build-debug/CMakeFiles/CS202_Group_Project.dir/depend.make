@@ -19,6 +19,9 @@ CMakeFiles/CS202_Group_Project.dir/PC.cpp.o: ../Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o: ../Skill.cpp
 CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o: ../Skill.hpp
 
+CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o: ../Skill.hpp
+CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o: ../SkillDescription.cpp
+
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Character_Class.h
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../PC.h
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Skill.hpp

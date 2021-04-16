@@ -16,6 +16,24 @@ iostream
 PC.h
 /home/zogwort/myDev/CS202-Group-Project/PC.h
 
+/home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
+iostream
+-
+string
+-
+
+/home/zogwort/myDev/CS202-Group-Project/PC.cpp
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
+iostream
+-
+vector
+-
+string
+-
+
 /home/zogwort/myDev/CS202-Group-Project/PC.h
 string
 -
@@ -28,9 +46,17 @@ Skill.hpp
 Character_Class.h
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
 
+/home/zogwort/myDev/CS202-Group-Project/Skill.cpp
+Skill.hpp
+/home/zogwort/myDev/CS202-Group-Project/Skill.hpp
+
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 iostream
 -
+
+/home/zogwort/myDev/CS202-Group-Project/SkillDescription.cpp
+Skill.hpp
+/home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 
 /home/zogwort/myDev/CS202-Group-Project/main.cpp
 iostream

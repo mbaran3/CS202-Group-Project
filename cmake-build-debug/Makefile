@@ -250,6 +250,33 @@ Skill.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Skill.cpp.s
 .PHONY : Skill.cpp.s
 
+SkillDescription.o: SkillDescription.cpp.o
+
+.PHONY : SkillDescription.o
+
+# target to build an object file
+SkillDescription.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o
+.PHONY : SkillDescription.cpp.o
+
+SkillDescription.i: SkillDescription.cpp.i
+
+.PHONY : SkillDescription.i
+
+# target to preprocess a source file
+SkillDescription.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.i
+.PHONY : SkillDescription.cpp.i
+
+SkillDescription.s: SkillDescription.cpp.s
+
+.PHONY : SkillDescription.s
+
+# target to generate assembly for a file
+SkillDescription.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.s
+.PHONY : SkillDescription.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -298,6 +325,9 @@ help:
 	@echo "... Skill.o"
 	@echo "... Skill.i"
 	@echo "... Skill.s"
+	@echo "... SkillDescription.o"
+	@echo "... SkillDescription.i"
+	@echo "... SkillDescription.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
