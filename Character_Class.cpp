@@ -127,3 +127,22 @@ bool Thief::requiredSkill(PC &player) const {
     else
         return false;
 }
+bool Wildlander::requiredSkill(PC &player) const {
+    int counter = 0;
+    if(player.archery.isKnown())
+        counter++;
+    if(player.survival.isKnown())
+        counter++;
+    if(player.endurance.isKnown())
+        counter++;
+    if(player.awareness.isKnown())
+        counter++;
+    if(player.stealth.isKnown())
+        counter++;
+    if(player.athletics.isKnown())
+        counter++;
+    if(counter > 2)
+        return true;
+    else
+        return false;
+}
