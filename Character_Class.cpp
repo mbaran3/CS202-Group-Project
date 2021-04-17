@@ -68,3 +68,22 @@ bool Brawler::requiredSkill(PC &player) const {
     else
         return false;
 }
+bool Knight::requiredSkill(PC &player) const {
+    int counter = 0;
+    if(player.military.isKnown())
+        counter++;
+    if(player.athletics.isKnown())
+        counter++;
+    if(player.awareness.isKnown())
+        counter++;
+    if(player.dueling.isKnown())
+        counter++;
+    if(player.devotion.isKnown())
+        counter++;
+    if(player.willpower.isKnown())
+        counter++;
+    if(counter > 2)
+        return true;
+    else
+        return false;
+}

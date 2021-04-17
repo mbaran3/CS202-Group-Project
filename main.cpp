@@ -15,8 +15,5 @@ int main() {
     else
         std::cout << "You don't have all the skills required" << std::endl;
 
-
-
-
     return 0;
 }

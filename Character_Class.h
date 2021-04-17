@@ -51,12 +51,16 @@ private:
 };
 
 class Knight : public Character_Class {
+public:
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "Noble warriors traiend in all arts of combat and outfitted with the finest weapons and armour by their \n noble patron or order; all knights uphold to the codes and ideals of \n chivalry and nobility.";
 };
 
 class Sage : public Character_Class {
+public:
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "A seeker of knowledge and ancient magic, Sages dedicate most of their lives to reading, writing, and studying of ancient books \n and all forms of arcana";
@@ -64,12 +68,16 @@ private:
 };
 
 class Theif : public Character_Class {
+public:
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "Theifs are those who are in the buisness and practice of illegal behavior and trade; many Theifs are trained in the \n art of deception and stealth, peffering to \n avoid combat and violence if possible";
 };
 
 class Wildlander : public Character_Class {
+public:
+    bool requiredSkill(PC& player) const override;
 
 private:
 	std::string _description = "Hardy, independent men and women, Wildlanders are able to thrive off the lands of Terrinoth for \n weeks and months on end. Some take thier skills of hunting and logging for extra gold \n but seldom need to return to civilization";
