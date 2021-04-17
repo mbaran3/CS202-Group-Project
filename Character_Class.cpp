@@ -87,3 +87,24 @@ bool Knight::requiredSkill(PC &player) const {
     else
         return false;
 }
+bool Sage::requiredSkill(PC &player) const {
+    int counter = 0;
+    if(player.history.isKnown())
+        counter++;
+    if(player.runes.isKnown())
+        counter++;
+    if(player.arcana.isKnown())
+        counter++;
+    if(player.runes.isKnown())
+        counter++;
+    if(player.reasoning.isKnown())
+        counter++;
+    if(player.craftsmanship.isKnown())
+        counter++;
+    if(player.devotion.isKnown())
+        counter++;
+    if(counter > 2)
+        return false;
+    else
+        return true;
+}
