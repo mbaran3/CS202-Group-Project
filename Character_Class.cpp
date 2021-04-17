@@ -108,3 +108,22 @@ bool Sage::requiredSkill(PC &player) const {
     else
         return true;
 }
+bool Thief::requiredSkill(PC &player) const {
+    int counter = 0;
+    if(player.deception.isKnown())
+        counter++;
+    if(player.agility.isKnown())
+        counter++;
+    if(player.stealth.isKnown())
+        counter++;
+    if(player.streetwise.isKnown())
+        counter++;
+    if(player.thievery.isKnown())
+        counter++;
+    if(player.reasoning.isKnown())
+        counter++;
+    if(counter > 2)
+        return true;
+    else
+        return false;
+}

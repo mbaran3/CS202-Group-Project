@@ -67,7 +67,7 @@ private:
 
 };
 
-class Theif : public Character_Class {
+class Thief : public Character_Class {
 public:
     bool requiredSkill(PC& player) const override;
 
