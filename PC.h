@@ -8,6 +8,7 @@
 #include <memory>
 #include <sstream>
 #include "Skill.hpp"
+#include "Race.hpp"
 #include "Character_Class.h"
 
 using std::endl;
@@ -24,6 +25,7 @@ class PC
 public:
 
     std::unique_ptr<Character_Class> charClass;
+    std::unique_ptr<Race> race;
     Military military;
     Dueling dueling;
     Agility agility;
@@ -57,6 +59,8 @@ public:
 	int setSTM(int stm);
     static void printDescription(std::string toPrint, const int wordsPerLine = 12);
 	void setClass(std::unique_ptr<Character_Class> setClass);
+    void setRace(std::unique_ptr<Race> setRace);
+    void checkSkill();
 	int checkGold();
 	int checkSTM();
 
