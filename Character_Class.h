@@ -2,9 +2,11 @@
 #ifndef CS202_GROUP_PROJECT_CHARACTER_CLASS_HPP
 #define CS202_GROUP_PROJECT_CHARACTER_CLASS_HPP
 
-#include <iostream>
+#include<iostream>
+#include<string>
 #include "PC.h"
 class PC;
+
 
 
 
@@ -15,29 +17,23 @@ public:
 	void printDescription();
 	virtual bool requiredSkill(PC& player) const;
 
-protected:
-
 private:
 	
-
-
 };
 
 
 //Classes for Player character to choose from, derived from Character_Class
-class Apothecary : public Character_Class{
+class Apothecary : public Character_Class {
 
 public:
+	bool requiredSkill(PC& player) const override;
 
 	static std::string description = "Apothecaries ply their trade in many of the towns and Villages of Terrinoth."
 		"They brew curative potions and other alchemical concoctions,"
-		" their knowledge of herbs, minberals and other chemicals to great effect. "
-}
-
-    bool requiredSkill(PC& player) const override;
+		" their knowledge of herbs, minberals and other chemicals to great effect. ";
 
 private:
-	std::string _description = "Apothecaries ply their trade in many of the towns and Villages of Terrinoth. \n They brew curative potions and other alchemical concoctions, using \n their knowledge of herbs, minberals and other \n chemicals to great effect. ";
+
 };
 
 
@@ -100,8 +96,8 @@ public:
 
 
 public:
-	static std::string _description = "Thieves are those who are in the buisness and practice of illegal behavior and trade; 
-		"many Theifs are trained in the \n art of deception and stealth,
+	static std::string _description = "Thieves are those who are in the buisness and practice of illegal behavior and trade" 
+		"many Theifs are trained in the \n art of deception and stealth"
 		"peffering to  avoid combat and violence if possible" 
 
 private:
@@ -114,7 +110,7 @@ public:
     bool requiredSkill(PC& player) const override;
 
 public:
-	static std::string _description = "Hardy, independent folks,
+	static std::string _description = "Hardy, independent folks,"
 		"Wildlanders are able to thrive off the lands of Terrinoth "
 		" weeks and months on end. Some take thier skills of hunting and logging for extra gold \n but seldom need to return to civilization";
 };
