@@ -8,7 +8,7 @@ int main() {
     PC exampleBard;
     exampleBard.setClass(std::make_unique<Bard>());
     exampleBard.deception.setKnown(true);
-    PC::printDescription(Bard::description, 15);
+    PC::printDescription(Bard::description);
 
     if(exampleBard.charClass->requiredSkill(exampleBard))
         std::cout << "You have all the skills required" << std::endl;
