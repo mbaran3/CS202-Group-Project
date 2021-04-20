@@ -5,6 +5,7 @@
 #include<string>
 #include<vector>
 #include<iostream>
+#include <memory>
 #include "Skill.hpp"
 #include "Character_Class.h"
 
@@ -21,7 +22,7 @@ class PC
 {
 public:
 
-    Character_Class *charClass;
+    std::unique_ptr<Character_Class> charClass;
     Military military;
     Dueling dueling;
     Agility agility;
@@ -54,7 +55,7 @@ public:
 	int setEXP(int exp);
 	int setSTM(int stm);
 
-	void setClass(Character_Class *setClass);
+	void setClass(std::unique_ptr<Character_Class> setClass);
 	int checkGold();
 	int checkSTM();
 

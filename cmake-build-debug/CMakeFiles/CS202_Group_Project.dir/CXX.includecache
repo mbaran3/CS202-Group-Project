@@ -19,6 +19,8 @@ vector
 -
 iostream
 -
+memory
+-
 Skill.hpp
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 Character_Class.h

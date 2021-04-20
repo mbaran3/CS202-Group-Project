@@ -4,9 +4,6 @@
 void Character_Class::printDescription() {
     cout << _description;
 }
-bool Character_Class::requiredSkill(PC &player) const{
-    cout   << "No  class set" << endl;
-}
 bool Apothecary::requiredSkill(PC &player) const {
 
     int counter = 0;
@@ -22,9 +19,9 @@ bool Apothecary::requiredSkill(PC &player) const {
     if(player.arcana.isKnown())
         counter++;
     if(counter > 2)
-        cout << "You have all the required skills for the class" << endl;
+        return true;
     else
-        cout << "You do not have required skills" << endl;
+        return false;
 }
 
 bool Bard::requiredSkill(PC &player) const {

@@ -13,7 +13,7 @@ class Character_Class {
 public:
 
 	void printDescription();
-	virtual bool requiredSkill(PC& player) const;
+	virtual bool requiredSkill(PC& player) const = 0;
 
 protected:
 

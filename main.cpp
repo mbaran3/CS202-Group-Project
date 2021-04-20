@@ -6,8 +6,8 @@ int main() {
 
     //Creates a PC
     PC exampleBard;
-    exampleBard.setClass(new Bard);
-
+    exampleBard.setClass(std::make_unique<Bard>());
+    std::cout << Deception::description << std::endl;
     exampleBard.deception.setKnown(true);
 
     if(exampleBard.charClass->requiredSkill(exampleBard))
