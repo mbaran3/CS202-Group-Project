@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp
+Character_Class.h
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+iostream
+-
+
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
 iostream
 -
@@ -29,10 +35,4 @@ Character_Class.h
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 iostream
 -
-
-/home/zogwort/myDev/CS202-Group-Project/main.cpp
-iostream
--
-PC.h
-/home/zogwort/myDev/CS202-Group-Project/PC.h
 
