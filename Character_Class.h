@@ -12,7 +12,8 @@ class PC;
 class Character_Class {
 public:
 
-	virtual bool classSkill(PC& player) const = 0;
+	void printDescription();
+	virtual bool requiredSkill(PC& player) const = 0;
 	
 };
 
