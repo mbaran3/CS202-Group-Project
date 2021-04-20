@@ -5,28 +5,15 @@ int main() {
 
 
     //Creates a PC
-    PC exampleCharacter;
-  
-    //Prints the description of archery from the character creation book.
-    std::cout << Archery::description << std::endl;
+    PC exampleBard;
+    exampleBard.setClass(new Bard);
 
-    //Sets archery known to true
-    //setKnown requires a true or false
-    exampleCharacter.archery.setKnown(true);
+    exampleBard.deception.setKnown(true);
 
-    if(exampleCharacter.archery.isKnown()){
-        std::cout << "You know archery" << std::endl;
-    }
-
-    //Sets archery to disabled after the skill is used
-    //setDisabled also requires a true or false
-    exampleCharacter.archery.setDisabled(true);
-    if(exampleCharacter.archery.isDisabled()){
-        std::cout << "The archery skill is Disabled" << std::endl;
-    }
-
-
-
+    if(exampleBard.charClass->requiredSkill(exampleBard))
+        std::cout << "You have all the skills required" << std::endl;
+    else
+        std::cout << "You don't have all the skills required" << std::endl;
 
     return 0;
 }

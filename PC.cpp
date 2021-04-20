@@ -12,27 +12,20 @@ PC::PC() {
 
 }
 
-
+void PC::setClass(Character_Class *setClass) {
+    charClass = setClass;
+}
 //Member functions for character class
 int PC::setEXP(int exp) {
-
+    return exp;
 }
 
 int PC::setGold(int gold ) {
-
+    return gold;
 }
 
 int PC::setSTM(int stm) {
-
-
-//Function to set race of PC
-void PC::set_race(string race) {
-	_RACE = race;
+    return stm;
 }
 
-//Functeion to set class of PC
-void PC::set_class(string _class){
-	_CLASS = (_class);
-
-}
 

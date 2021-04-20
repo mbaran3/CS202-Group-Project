@@ -67,10 +67,10 @@ RM = /snap/clion/149/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zogwort/Documents/CS202/CS202-Group-Project
+CMAKE_SOURCE_DIR = /home/zogwort/myDev/CS202-Group-Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zogwort/Documents/CS202/CS202-Group-Project/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zogwort/myDev/CS202-Group-Project/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zogwort/Documents/CS202/CS202-Group-Project/cmake-build-debug/CMakeFiles /home/zogwort/Documents/CS202/CS202-Group-Project/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles /home/zogwort/myDev/CS202-Group-Project/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zogwort/Documents/CS202/CS202-Group-Project/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,60 @@ CS202_Group_Project: cmake_check_build_system
 CS202_Group_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/build
 .PHONY : CS202_Group_Project/fast
+
+Character_Class.o: Character_Class.cpp.o
+
+.PHONY : Character_Class.o
+
+# target to build an object file
+Character_Class.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o
+.PHONY : Character_Class.cpp.o
+
+Character_Class.i: Character_Class.cpp.i
+
+.PHONY : Character_Class.i
+
+# target to preprocess a source file
+Character_Class.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.i
+.PHONY : Character_Class.cpp.i
+
+Character_Class.s: Character_Class.cpp.s
+
+.PHONY : Character_Class.s
+
+# target to generate assembly for a file
+Character_Class.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.s
+.PHONY : Character_Class.cpp.s
+
+Character_Creation.o: Character_Creation.cpp.o
+
+.PHONY : Character_Creation.o
+
+# target to build an object file
+Character_Creation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o
+.PHONY : Character_Creation.cpp.o
+
+Character_Creation.i: Character_Creation.cpp.i
+
+.PHONY : Character_Creation.i
+
+# target to preprocess a source file
+Character_Creation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.i
+.PHONY : Character_Creation.cpp.i
+
+Character_Creation.s: Character_Creation.cpp.s
+
+.PHONY : Character_Creation.s
+
+# target to generate assembly for a file
+Character_Creation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.s
+.PHONY : Character_Creation.cpp.s
 
 PC.o: PC.cpp.o
 
@@ -196,6 +250,33 @@ Skill.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Skill.cpp.s
 .PHONY : Skill.cpp.s
 
+SkillDescription.o: SkillDescription.cpp.o
+
+.PHONY : SkillDescription.o
+
+# target to build an object file
+SkillDescription.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o
+.PHONY : SkillDescription.cpp.o
+
+SkillDescription.i: SkillDescription.cpp.i
+
+.PHONY : SkillDescription.i
+
+# target to preprocess a source file
+SkillDescription.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.i
+.PHONY : SkillDescription.cpp.i
+
+SkillDescription.s: SkillDescription.cpp.s
+
+.PHONY : SkillDescription.s
+
+# target to generate assembly for a file
+SkillDescription.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.s
+.PHONY : SkillDescription.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -232,12 +313,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS202_Group_Project"
+	@echo "... Character_Class.o"
+	@echo "... Character_Class.i"
+	@echo "... Character_Class.s"
+	@echo "... Character_Creation.o"
+	@echo "... Character_Creation.i"
+	@echo "... Character_Creation.s"
 	@echo "... PC.o"
 	@echo "... PC.i"
 	@echo "... PC.s"
 	@echo "... Skill.o"
 	@echo "... Skill.i"
 	@echo "... Skill.s"
+	@echo "... SkillDescription.o"
+	@echo "... SkillDescription.i"
+	@echo "... SkillDescription.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

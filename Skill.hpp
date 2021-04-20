@@ -1,7 +1,3 @@
-//
-// Created by micha on 4/9/2021.
-//
-
 #ifndef CS202_GROUP_PROJECT_SKILL_HPP
 #define CS202_GROUP_PROJECT_SKILL_HPP
 #include <iostream>
@@ -10,6 +6,7 @@
 class Skill {
 
 public:
+
     bool isKnown();
     bool isDisabled();
     void setKnown(bool setTo);
