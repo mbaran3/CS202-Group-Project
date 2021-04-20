@@ -29,13 +29,6 @@ void PC::printDescription(std::string toPrint, const int wordsPerLine){
     }
     std::cout << std::endl;
 }
-bool checkSkill(){
-    if(race->requiredSkill() && charClass->requiredSkill())
-        return true;
-}
-void PC::setRace(std::unique_ptr<Race> setRace){
-    race = std::move(setRace);
-}
 void PC::setClass(std::unique_ptr<Character_Class> setClass) {
     charClass = std::move(setClass);
 }
