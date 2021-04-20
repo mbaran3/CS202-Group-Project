@@ -6,7 +6,7 @@ std::string Alchemy::description=
         "process and your ability to "
         "concoct and brew potions of "
         "all varieties. Alchemical brews "
-        "include elixirs that cure diseases w"
+        "include elixirs that cure diseases "
         "and explosive concoctions.";
 
 

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/main.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/main.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/main.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/PC.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/PC.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/PC.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/Skill.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/Skill.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/SkillDescription.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/SkillDescription.cpp"
+},
+{
+  "directory": "/home/zogwort/myDev/CS202-Group-Project/build",
+  "command": "/bin/c++   -g -std=gnu++14 -o CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp",
+  "file": "/home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp"
+}
+]

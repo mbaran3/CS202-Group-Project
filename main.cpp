@@ -10,6 +10,8 @@ int main() {
     std::cout << Deception::description << std::endl;
     exampleBard.deception.setKnown(true);
 
+    std::cout << Brawler::description << std::endl;
+
     if(exampleBard.charClass->requiredSkill(exampleBard))
         std::cout << "You have all the skills required" << std::endl;
     else
