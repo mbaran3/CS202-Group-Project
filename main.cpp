@@ -7,10 +7,8 @@ int main() {
     //Creates a PC
     PC exampleBard;
     exampleBard.setClass(std::make_unique<Bard>());
-    std::cout << Deception::description << std::endl;
     exampleBard.deception.setKnown(true);
-
-    std::cout << Brawler::description << std::endl;
+    PC::printDescription(Bard::description, 15);
 
     if(exampleBard.charClass->requiredSkill(exampleBard))
         std::cout << "You have all the skills required" << std::endl;

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp
+Character_Class.h
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp
 Character_Class.h
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
@@ -18,6 +22,24 @@ iostream
 PC.h
 /home/zogwort/myDev/CS202-Group-Project/PC.h
 
+/home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
+iostream
+-
+string
+-
+
+/home/zogwort/myDev/CS202-Group-Project/PC.cpp
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
+iostream
+-
+vector
+-
+string
+-
+
 /home/zogwort/myDev/CS202-Group-Project/PC.h
 string
 -
@@ -27,6 +49,8 @@ iostream
 -
 memory
 -
+sstream
+-
 Skill.hpp
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 Character_Class.h
@@ -35,4 +59,10 @@ Character_Class.h
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 iostream
 -
+
+/home/zogwort/myDev/CS202-Group-Project/main.cpp
+iostream
+-
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
 

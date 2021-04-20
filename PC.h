@@ -6,6 +6,7 @@
 #include<vector>
 #include<iostream>
 #include <memory>
+#include <sstream>
 #include "Skill.hpp"
 #include "Character_Class.h"
 
@@ -54,7 +55,7 @@ public:
 	int setGold(int gold);
 	int setEXP(int exp);
 	int setSTM(int stm);
-
+    static void printDescription(std::string toPrint, const int wordsPerLine = 12);
 	void setClass(std::unique_ptr<Character_Class> setClass);
 	int checkGold();
 	int checkSTM();
