@@ -6,10 +6,10 @@
 
 
 void Character_Class::printDescription() {
-    cout << _description;
+    cout << description;
 }
 bool Character_Class::requiredSkill(PC &player) const{
-    cout   << "No  class set" << endl;
+    cout   << "No class set" << endl;
 }
 bool Apothecary::requiredSkill(PC &player) const {
 

@@ -7,6 +7,7 @@
 #include<iostream>
 #include "Skill.hpp"
 #include "Character_Class.h"
+#include "Race.h"
 
 using std::endl;
 using std::cout;
@@ -22,6 +23,7 @@ class PC
 public:
 
     Character_Class *charClass;
+    Race *charRace;
     Military military;
     Dueling dueling;
     Agility agility;
@@ -55,6 +57,7 @@ public:
 	int setSTM(int stm);
 
 	void setClass(Character_Class *setClass);
+    void setRace(Character_Class *setRace);
 	int checkGold();
 	int checkSTM();
 

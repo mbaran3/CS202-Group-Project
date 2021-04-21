@@ -16,6 +16,7 @@ public:
 
 	void printDescription();
 	virtual bool requiredSkill(PC& player) const;
+	std::string description;
 
 private:
 	
@@ -26,47 +27,47 @@ private:
 class Apothecary : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 };
 
 
 class Bard : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 };
 
 class Brawler : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 };
 
 
 class Knight : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 };
 
 class Sage : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 
 };
 
 class Thief : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 
 };
 
 class Wildlander : public Character_Class {
 public:
 	bool requiredSkill(PC& player) const override;
-	static std::string _description;
+	static std::string description;
 
 };
 
