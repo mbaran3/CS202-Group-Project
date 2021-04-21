@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o"
   "CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o"
   "CMakeFiles/CS202_Group_Project.dir/PC.cpp.o"
+  "CMakeFiles/CS202_Group_Project.dir/Race.cpp.o"
   "CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o"
   "CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o"
   "CMakeFiles/CS202_Group_Project.dir/main.cpp.o"

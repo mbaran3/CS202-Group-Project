@@ -6,7 +6,7 @@ using std::endl;
 using std::string;
 using std::cout;
 using std::cin;
-using std::vector;
+
 
 
 //function used to initiate character creation 

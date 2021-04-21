@@ -1,18 +1,15 @@
 #pragma once
 #ifndef CS202_GROUP_PROJECT_CHARACTER_CLASS_HPP
 #define CS202_GROUP_PROJECT_CHARACTER_CLASS_HPP
-
 #include <iostream>
 #include "PC.h"
+
 class PC;
-
-
-
 //Base Class "Character_Class"
 class Character_Class {
 public:
 
-	void printDescription();
+    virtual std::string className() {return "No class set";}
 	virtual bool requiredSkill(PC& player) const = 0;
 	
 };
@@ -21,6 +18,7 @@ public:
 class Apothecary : public Character_Class{
 
 public:
+    std::string className() {return "Apothecary";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
 };
@@ -29,7 +27,7 @@ public:
 class Bard : public Character_Class{
 
 public:
-
+    std::string className()  {return "Bard";}
 	static std::string description;     
 	bool requiredSkill(PC& player) const override;
 
@@ -37,6 +35,7 @@ public:
 
 class Brawler : public Character_Class{
 public:
+    std::string className() {return "Brawler";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
 };
@@ -44,24 +43,28 @@ public:
 
 class Knight : public Character_Class {
 public:
+    std::string className() {return "Knight";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
 };
 
 class Sage : public Character_Class {
 public:
+    std::string className() {return "Sage";}
     bool requiredSkill(PC& player) const override;
 	static std::string description; 
 };
 
 class Thief : public Character_Class {
 public:
+    std::string className() {return "Thief";}
     bool requiredSkill(PC& player) const override;
 	static std::string description; 
 };
 
 class Wildlander : public Character_Class {
 public:
+    std::string className() {return "Wildlander";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
 };

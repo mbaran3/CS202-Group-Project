@@ -1,21 +1,20 @@
 #pragma once
 #ifndef CS202_GROUP_PROJECT_PC_H
+#include "Skill.hpp"
+#include "Character_Class.h"
+#include "Race.hpp"
 #define CS202_GROUP_PROJECT_PC_H
-
-#include<string>
-#include<vector>
-#include<iostream>
 #include <memory>
 #include <sstream>
-#include "Skill.hpp"
-#include "Race.hpp"
-#include "Character_Class.h"
+#include <iostream>
+
 
 using std::endl;
 using std::cout;
 using std::string;
-using std::vector;
 class Character_Class;
+class Race;
+
 
 
 //Class for Player Character
@@ -42,6 +41,7 @@ public:
     Willpower willpower;
     Deception deception;
     Empathy empathy;
+    Brawling brawling;
     Persuasion persuasion;
     Streetwise streetwise;
     Performance performance;
@@ -57,7 +57,10 @@ public:
 	int setGold(int gold);
 	int setEXP(int exp);
 	int setSTM(int stm);
-    static void printDescription(std::string toPrint, const int wordsPerLine = 12);
+	std::string getClass();
+	std::string getRace();
+	static void printDescription(std::string toPrint, const int wordsPerLine = 12);
+    void setRace(std::unique_ptr<Race> setRace);
 	void setClass(std::unique_ptr<Character_Class> setClass);
     void setRace(std::unique_ptr<Race> setRace);
     void checkSkill();

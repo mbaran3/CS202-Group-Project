@@ -1,6 +1,7 @@
 #ifndef CS202_GROUP_PROJECT_SKILL_HPP
 #define CS202_GROUP_PROJECT_SKILL_HPP
 #include <iostream>
+
 //A skills base class
 class Skill {
 

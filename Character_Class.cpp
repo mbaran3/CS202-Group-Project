@@ -26,7 +26,7 @@ bool Apothecary::requiredSkill(PC &player) const {
 bool Bard::requiredSkill(PC &player) const {
 
     int counter = 0;
-
+    std::cout << "this was run" << std::endl;
     if(player.deception.isKnown())
         counter++;
     if(player.performance.isKnown())

@@ -5,21 +5,31 @@ CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
  /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
  /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
  /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
  /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
  /home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp
  /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
  /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/PC.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
  /home/zogwort/myDev/CS202-Group-Project/PC.cpp
  /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
+ /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.o
+ /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+ /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.cpp
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
  /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/Skill.cpp
@@ -30,5 +40,6 @@ CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o
  /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
  /home/zogwort/myDev/CS202-Group-Project/PC.h
+ /home/zogwort/myDev/CS202-Group-Project/Race.hpp
  /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
  /home/zogwort/myDev/CS202-Group-Project/main.cpp
