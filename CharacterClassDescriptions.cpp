@@ -1,3 +1,4 @@
+
 #include "Character_Class.h"
 
 
@@ -38,7 +39,4 @@ std::string Wildlander::description =
 "Hardy, independent folks, Wildlanders are able to thrive off the lands of" 
 " Terrinoth weeks and months on end. Some take thier skills of hunting and" 
 " logging for extra gold but seldom need to return to civilization";
-
-
-
 

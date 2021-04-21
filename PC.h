@@ -7,7 +7,7 @@
 #include <memory>
 #include <sstream>
 #include <iostream>
-
+#include<vector>
 
 using std::endl;
 using std::cout;
@@ -62,7 +62,6 @@ public:
 	static void printDescription(std::string toPrint, const int wordsPerLine = 12);
     void setRace(std::unique_ptr<Race> setRace);
 	void setClass(std::unique_ptr<Character_Class> setClass);
-    void setRace(std::unique_ptr<Race> setRace);
     void checkSkill();
 	int checkGold();
 	int checkSTM();
