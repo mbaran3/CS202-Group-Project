@@ -91,6 +91,9 @@
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Character_Class.h">
 			<Option target="CS202_Group_Project"/>
 		</Unit>
+		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Character_Creastion.h">
+			<Option target="CS202_Group_Project"/>
+		</Unit>
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp">
 			<Option target="CS202_Group_Project"/>
 		</Unit>
@@ -101,6 +104,9 @@
 			<Option target="CS202_Group_Project"/>
 		</Unit>
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Race.cpp">
+			<Option target="CS202_Group_Project"/>
+		</Unit>
+		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Race.h">
 			<Option target="CS202_Group_Project"/>
 		</Unit>
 		<Unit filename="/home/zogwort/myDev/CS202-Group-Project/Race.hpp">

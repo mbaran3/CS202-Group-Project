@@ -4,7 +4,7 @@
 CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../CharacterClassDescriptions.cpp
 CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../Character_Class.h
 CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../PC.h
-CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../Race.hpp
+CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../Race.h
 CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../Skill.hpp
 
 CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o: ../Character_Class.cpp
@@ -28,6 +28,7 @@ CMakeFiles/CS202_Group_Project.dir/PC.cpp.o: ../Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Character_Class.h
 CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../PC.h
 CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Race.cpp
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Race.h
 CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Race.hpp
 CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Skill.hpp
 
@@ -38,7 +39,9 @@ CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o: ../Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o: ../SkillDescription.cpp
 
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Character_Class.h
+CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Character_Creastion.h
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../PC.h
+CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Race.h
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Race.hpp
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../Skill.hpp
 CMakeFiles/CS202_Group_Project.dir/main.cpp.o: ../main.cpp
