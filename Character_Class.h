@@ -8,7 +8,7 @@ class PC;
 //Base Class "Character_Class"
 class Character_Class {
 public:
-
+    virtual ~Character_Class() {}
     virtual std::string className() {return "No class set";}
     virtual bool requiredSkill(PC& player) const = 0;
     
