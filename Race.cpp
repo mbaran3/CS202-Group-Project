@@ -1,4 +1,5 @@
 #include "Race.hpp"
+
 #include "PC.h"
 #include "Skill.hpp"
 
@@ -23,6 +24,7 @@ bool Human::requiredSkill(PC& player) const {
     else
         return false;
 }
+
 bool Orcs::requiredSkill(PC& player) const {
     int counter = 0;
     if (player.athletics.isKnown())
@@ -61,6 +63,7 @@ bool Elf::requiredSkill(PC& player) const {
     else
         return false;
 }
+
 bool Gnome::requiredSkill(PC& player) const {
     int counter = 0;
     if (player.alchemy.isKnown())
@@ -80,6 +83,7 @@ bool Gnome::requiredSkill(PC& player) const {
     else
         return false;
 }
+
 bool Dwarf::requiredSkill(PC& player) const {
     int counter = 0;
     if (player.athletics.isKnown())
@@ -99,6 +103,7 @@ bool Dwarf::requiredSkill(PC& player) const {
     else
         return false;
 }
+
 bool Catfolk::requiredSkill(PC& player) const {
     int counter = 0;
     if (player.agility.isKnown())
