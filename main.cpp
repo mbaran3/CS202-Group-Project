@@ -16,7 +16,7 @@ int main() {
     std::cout << std::endl;
 
 
-    if(exampleBard.charClass->requiredSkill(exampleBard))
+    if (exampleBard.charClass->requiredSkill(exampleBard))
         std::cout << "You have all the skills required" << std::endl;
     else
         std::cout << "You don't have all the skills required" << std::endl;

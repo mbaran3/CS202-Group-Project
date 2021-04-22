@@ -2,7 +2,8 @@
 #ifndef CS202_GROUP_PROJECT_PC_H
 #include "Skill.hpp"
 #include "Character_Class.h"
-#include "Race.hpp"
+
+#include "Race.h"
 #define CS202_GROUP_PROJECT_PC_H
 #include <memory>
 #include <sstream>
@@ -50,21 +51,21 @@ public:
     Runes runes;
     Thievery thievery;
 
-	//default constructor
-	PC();
+    //default constructor
+    PC();
 
-	//Member Functions
-	int setGold(int gold);
-	int setEXP(int exp);
-	int setSTM(int stm);
-	std::string getClass();
-	std::string getRace();
-	static void printDescription(std::string toPrint, const int wordsPerLine = 12);
+    //Member Functions
+    int setGold(int gold);
+    int setEXP(int exp);
+    int setSTM(int stm);
+    std::string getClass();
+    std::string getRace();
+    static void printDescription(std::string toPrint, const int wordsPerLine = 12);
     void setRace(std::unique_ptr<Race> setRace);
-	void setClass(std::unique_ptr<Character_Class> setClass);
+    void setClass(std::unique_ptr<Character_Class> setClass);
     void checkSkill();
-	int checkGold();
-	int checkSTM();
+    int checkGold();
+    int checkSTM();
 
 
 private:
@@ -73,5 +74,4 @@ private:
 };
 
 #endif
-
 
