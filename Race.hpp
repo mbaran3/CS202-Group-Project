@@ -19,7 +19,7 @@ public:
 //All races in game
 class Human : public Race {
 public:
-    std::string raceName() {return "Human";}
+    std::string raceName() override {return "Human";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 
@@ -27,35 +27,35 @@ public:
 
 class Orcs : public Race {
 public:
-    std::string raceName() {return "Orcs";}
+    std::string raceName() override {return "Orcs";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 };
 
 class Dwarf : public Race {
 public:
-    std::string raceName() {return "Dwarf";}
+    std::string raceName() override {return "Dwarf";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 };
 
 class Elf : public Race {
 public:
-    std::string raceName() {return "Elf";}
+    std::string raceName() override {return "Elf";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 };
 
 class Gnome : public Race {
 public:
-    std::string raceName() {return "Gnome";}
+    std::string raceName() override {return "Gnome";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 };
 
 class Catfolk : public Race {
 public:
-    std::string raceName() {return "Catfolk";}
+    std::string raceName() override {return "Catfolk";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
 
