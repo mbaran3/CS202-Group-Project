@@ -9,7 +9,7 @@ class PC;
 //base class for Race
 class Race {
 public:
-
+    virtual ~Race() {}
     virtual std::string raceName() {return "No race set";}
     virtual bool requiredSkill(PC& player) const = 0;
     std::string _description;
