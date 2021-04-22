@@ -154,6 +154,32 @@ CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zogwort/myDev/CS202-Group-Project/SkillDescription.cpp -o CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.s
 
+CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: CMakeFiles/CS202_Group_Project.dir/flags.make
+CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o: ../CharacterClassDescriptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp
+
+CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp > CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.i
+
+CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp -o CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.s
+
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: CMakeFiles/CS202_Group_Project.dir/flags.make
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.o: ../Race.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CS202_Group_Project.dir/Race.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS202_Group_Project.dir/Race.cpp.o -c /home/zogwort/myDev/CS202-Group-Project/Race.cpp
+
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS202_Group_Project.dir/Race.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zogwort/myDev/CS202-Group-Project/Race.cpp > CMakeFiles/CS202_Group_Project.dir/Race.cpp.i
+
+CMakeFiles/CS202_Group_Project.dir/Race.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS202_Group_Project.dir/Race.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zogwort/myDev/CS202-Group-Project/Race.cpp -o CMakeFiles/CS202_Group_Project.dir/Race.cpp.s
+
 # Object files for target CS202_Group_Project
 CS202_Group_Project_OBJECTS = \
 "CMakeFiles/CS202_Group_Project.dir/main.cpp.o" \
@@ -161,7 +187,9 @@ CS202_Group_Project_OBJECTS = \
 "CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o" \
 "CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o" \
 "CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o" \
-"CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o"
+"CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o" \
+"CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o" \
+"CMakeFiles/CS202_Group_Project.dir/Race.cpp.o"
 
 # External object files for target CS202_Group_Project
 CS202_Group_Project_EXTERNAL_OBJECTS =
@@ -172,9 +200,11 @@ CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/Skill.cpp.o
 CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/Character_Creation.cpp.o
 CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/Character_Class.cpp.o
 CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/SkillDescription.cpp.o
+CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o
+CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/Race.cpp.o
 CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/build.make
 CS202_Group_Project: CMakeFiles/CS202_Group_Project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CS202_Group_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zogwort/myDev/CS202-Group-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CS202_Group_Project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS202_Group_Project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

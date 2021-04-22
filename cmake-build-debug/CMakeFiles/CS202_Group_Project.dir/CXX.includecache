@@ -6,23 +6,57 @@
 
 #IncludeRegexTransform: 
 
+/home/zogwort/myDev/CS202-Group-Project/CharacterClassDescriptions.cpp
+Character_Class.h
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.cpp
+Character_Class.h
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+iostream
+-
+
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
 iostream
 -
 PC.h
 /home/zogwort/myDev/CS202-Group-Project/PC.h
 
+/home/zogwort/myDev/CS202-Group-Project/Character_Creation.cpp
+PC.h
 /home/zogwort/myDev/CS202-Group-Project/PC.h
-string
--
-vector
--
 iostream
 -
+string
+-
+
+/home/zogwort/myDev/CS202-Group-Project/PC.cpp
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
+
+/home/zogwort/myDev/CS202-Group-Project/PC.h
 Skill.hpp
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 Character_Class.h
 /home/zogwort/myDev/CS202-Group-Project/Character_Class.h
+Race.hpp
+/home/zogwort/myDev/CS202-Group-Project/Race.hpp
+memory
+-
+sstream
+-
+iostream
+-
+
+/home/zogwort/myDev/CS202-Group-Project/Race.cpp
+Race.hpp
+/home/zogwort/myDev/CS202-Group-Project/Race.hpp
+
+/home/zogwort/myDev/CS202-Group-Project/Race.hpp
+string
+-
+PC.h
+/home/zogwort/myDev/CS202-Group-Project/PC.h
 
 /home/zogwort/myDev/CS202-Group-Project/Skill.hpp
 iostream
@@ -33,4 +67,8 @@ iostream
 -
 PC.h
 /home/zogwort/myDev/CS202-Group-Project/PC.h
+Race.hpp
+/home/zogwort/myDev/CS202-Group-Project/Race.hpp
+Character_Class.h
+/home/zogwort/myDev/CS202-Group-Project/Character_Class.h
 

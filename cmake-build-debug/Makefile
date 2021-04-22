@@ -142,6 +142,33 @@ CS202_Group_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/build
 .PHONY : CS202_Group_Project/fast
 
+CharacterClassDescriptions.o: CharacterClassDescriptions.cpp.o
+
+.PHONY : CharacterClassDescriptions.o
+
+# target to build an object file
+CharacterClassDescriptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.o
+.PHONY : CharacterClassDescriptions.cpp.o
+
+CharacterClassDescriptions.i: CharacterClassDescriptions.cpp.i
+
+.PHONY : CharacterClassDescriptions.i
+
+# target to preprocess a source file
+CharacterClassDescriptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.i
+.PHONY : CharacterClassDescriptions.cpp.i
+
+CharacterClassDescriptions.s: CharacterClassDescriptions.cpp.s
+
+.PHONY : CharacterClassDescriptions.s
+
+# target to generate assembly for a file
+CharacterClassDescriptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/CharacterClassDescriptions.cpp.s
+.PHONY : CharacterClassDescriptions.cpp.s
+
 Character_Class.o: Character_Class.cpp.o
 
 .PHONY : Character_Class.o
@@ -222,6 +249,33 @@ PC.s: PC.cpp.s
 PC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/PC.cpp.s
 .PHONY : PC.cpp.s
+
+Race.o: Race.cpp.o
+
+.PHONY : Race.o
+
+# target to build an object file
+Race.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Race.cpp.o
+.PHONY : Race.cpp.o
+
+Race.i: Race.cpp.i
+
+.PHONY : Race.i
+
+# target to preprocess a source file
+Race.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Race.cpp.i
+.PHONY : Race.cpp.i
+
+Race.s: Race.cpp.s
+
+.PHONY : Race.s
+
+# target to generate assembly for a file
+Race.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CS202_Group_Project.dir/build.make CMakeFiles/CS202_Group_Project.dir/Race.cpp.s
+.PHONY : Race.cpp.s
 
 Skill.o: Skill.cpp.o
 
@@ -313,6 +367,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CS202_Group_Project"
+	@echo "... CharacterClassDescriptions.o"
+	@echo "... CharacterClassDescriptions.i"
+	@echo "... CharacterClassDescriptions.s"
 	@echo "... Character_Class.o"
 	@echo "... Character_Class.i"
 	@echo "... Character_Class.s"
@@ -322,6 +379,9 @@ help:
 	@echo "... PC.o"
 	@echo "... PC.i"
 	@echo "... PC.s"
+	@echo "... Race.o"
+	@echo "... Race.i"
+	@echo "... Race.s"
 	@echo "... Skill.o"
 	@echo "... Skill.i"
 	@echo "... Skill.s"
