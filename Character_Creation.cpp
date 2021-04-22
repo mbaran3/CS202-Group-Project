@@ -1,3 +1,4 @@
+/*
 #include"PC.h"
 #include<iostream>
 #include<string>
@@ -35,7 +36,7 @@ void Character_Creation(PC& pc) {
     cout << "by the great Dunwarr Mountains, the ancestral home of the 'DWARVES'. " << '\n';
     cout << "The Emerald boughs of the Aymhelin shelter the settlements of the Latari 'ELVES' and define " << '\n';
     cout << "Although less common, some 'GNOME' communties and 'CATFOLK' tribes also call Terrinorth their home"
-         << endl;
+        << endl;
 
     while (cin.get() != '\n');
 
@@ -56,23 +57,23 @@ void Character_Creation(PC& pc) {
     int race_menu_choice;
 
     switch (race_menu_choice) {
-        case 1:
-            cout << "Humans are a short-lived race, but diverse and resilient." << '\n';
-            cout << "They are larger and useally stronger than elves, dwarves, and gnomes, " << '\n';
-            cout << "and despite their short lifespans -or perhaps because of them - humans are swift " << '\n';
-            cout << "to learn and adapt? " << endl;
+    case 1:
+        cout << "Humans are a short-lived race, but diverse and resilient." << '\n';
+        cout << "They are larger and useally stronger than elves, dwarves, and gnomes, " << '\n';
+        cout << "and despite their short lifespans -or perhaps because of them - humans are swift " << '\n';
+        cout << "to learn and adapt? " << endl;
 
-            cout << "would you like to choose human? " << endl;
-            cout << "(type Y / N) " << endl;
+        cout << "would you like to choose human? " << endl;
+        cout << "(type Y / N) " << endl;
 
-            break;
-        case 2:
-            break;
+        break;
+    case 2:
+        break;
 
     }
 }
 
-
+*/
 
 
 

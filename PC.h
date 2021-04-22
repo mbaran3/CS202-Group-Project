@@ -1,19 +1,20 @@
 #pragma once
 #ifndef CS202_GROUP_PROJECT_PC_H
-#define CS202_GROUP_PROJECT_PC_H
-
-#include<string>
-#include<vector>
-#include<iostream>
 #include "Skill.hpp"
 #include "Character_Class.h"
 #include "Race.h"
+#define CS202_GROUP_PROJECT_PC_H
+#include <memory>
+#include <sstream>
+#include <iostream>
+
 
 using std::endl;
 using std::cout;
 using std::string;
-using std::vector;
 class Character_Class;
+class Race;
+
 
 
 //Class for Player Character
@@ -22,8 +23,8 @@ class PC
 {
 public:
 
-    Character_Class *charClass;
-    Race *charRace;
+    std::unique_ptr<Character_Class> charClass;
+    std::unique_ptr<Race> race;
     Military military;
     Dueling dueling;
     Agility agility;
@@ -40,6 +41,7 @@ public:
     Willpower willpower;
     Deception deception;
     Empathy empathy;
+    Brawling brawling;
     Persuasion persuasion;
     Streetwise streetwise;
     Performance performance;
@@ -48,18 +50,21 @@ public:
     Runes runes;
     Thievery thievery;
 
-	//default constructor
-	PC();
+    //default constructor
+    PC();
 
-	//Member Functions
-	int setGold(int gold);
-	int setEXP(int exp);
-	int setSTM(int stm);
-
-	void setClass(Character_Class *setClass);
-    void setRace(Character_Class *setRace);
-	int checkGold();
-	int checkSTM();
+    //Member Functions
+    int setGold(int gold);
+    int setEXP(int exp);
+    int setSTM(int stm);
+    std::string getClass();
+    std::string getRace();
+    static void printDescription(std::string toPrint, const int wordsPerLine = 12);
+    void setRace(std::unique_ptr<Race> setRace);
+    void setClass(std::unique_ptr<Character_Class> setClass);
+    void checkSkill();
+    int checkGold();
+    int checkSTM();
 
 
 private:
@@ -68,5 +73,4 @@ private:
 };
 
 #endif
-
 

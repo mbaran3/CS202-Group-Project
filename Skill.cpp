@@ -6,7 +6,7 @@ bool Skill::isKnown() {
     return _isKnown;
 }
 //Returns if the Skill is disabled or not
-bool Skill::isDisabled(){
+bool Skill::isDisabled() {
     return _isDisabled;
 }
 //Sets Disabled to true or false
@@ -17,8 +17,5 @@ void Skill::setDisabled(bool setTo) {
 void Skill::setKnown(bool setTo) {
     _isKnown = setTo;
 }
-
-
-
 
 
