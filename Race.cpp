@@ -18,7 +18,7 @@ bool Human::requiredSkill(PC& player) const {
         counter++;
     if (player.willpower.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
@@ -37,7 +37,7 @@ bool Orcs::requiredSkill(PC& player) const {
         counter++;
     if (player.devotion.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
@@ -56,7 +56,7 @@ bool Elf::requiredSkill(PC& player) const {
         counter++;
     if (player.devotion.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
@@ -75,7 +75,7 @@ bool Gnome::requiredSkill(PC& player) const {
         counter++;
     if (player.stealth.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
@@ -94,7 +94,7 @@ bool Dwarf::requiredSkill(PC& player) const {
         counter++;
     if (player.military.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
@@ -113,7 +113,7 @@ bool Catfolk::requiredSkill(PC& player) const {
         counter++;
     if (player.brawling.isKnown())
         counter++;
-    if (counter > 2)
+    if (counter >= 2)
         return true;
     else
         return false;
