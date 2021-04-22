@@ -17,7 +17,7 @@ bool Apothecary::requiredSkill(PC &player) const {
         counter++;
     if(player.arcana.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return true;
     else
         return false;
@@ -41,7 +41,7 @@ bool Bard::requiredSkill(PC &player) const {
         counter++;
     if(player.history.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
        return true;
     else
         return false;
@@ -59,7 +59,7 @@ bool Brawler::requiredSkill(PC &player) const {
         counter++;
     if(player.willpower.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return true;
     else
         return false;
@@ -78,7 +78,7 @@ bool Knight::requiredSkill(PC &player) const {
         counter++;
     if(player.willpower.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return true;
     else
         return false;
@@ -99,7 +99,7 @@ bool Sage::requiredSkill(PC &player) const {
         counter++;
     if(player.devotion.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return false;
     else
         return true;
@@ -118,7 +118,7 @@ bool Thief::requiredSkill(PC &player) const {
         counter++;
     if(player.reasoning.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return true;
     else
         return false;
@@ -137,7 +137,7 @@ bool Wildlander::requiredSkill(PC &player) const {
         counter++;
     if(player.athletics.isKnown())
         counter++;
-    if(counter > 2)
+    if(counter >=2)
         return true;
     else
         return false;

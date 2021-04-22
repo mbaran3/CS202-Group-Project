@@ -54,9 +54,9 @@ public:
 	PC();
 
 	//Member Functions
-	int setGold(int gold);
-	int setEXP(int exp);
-	int setSTM(int stm);
+    void setGold(int gold);
+    void setEXP(int exp);
+    void setSTM(int stm);
 	std::string getClass();
 	std::string getRace();
 	static void printDescription(std::string toPrint, const int wordsPerLine = 12);
@@ -65,7 +65,7 @@ public:
     void checkSkill();
 	int checkGold();
 	int checkSTM();
-
+    void resetSkills();
 
 private:
     int _gold, _exp, _stm;

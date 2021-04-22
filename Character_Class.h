@@ -11,7 +11,7 @@ public:
 
     virtual std::string className() {return "No class set";}
 	virtual bool requiredSkill(PC& player) const = 0;
-	
+    virtual std::string requirements() const = 0;
 };
 
 //Classes for Player character to choose from, derived from Character_Class
@@ -21,6 +21,7 @@ public:
     std::string className() {return "Apothecary";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
+    std::string requirements() const override;
 };
 
 
@@ -29,8 +30,8 @@ class Bard : public Character_Class{
 public:
     std::string className()  {return "Bard";}
 	static std::string description;     
-	bool requiredSkill(PC& player) const override;
-
+	bool requiredSkill(PC& player) const override; 
+    std::string requirements() const override;
 };
 
 class Brawler : public Character_Class{
@@ -38,6 +39,7 @@ public:
     std::string className() {return "Brawler";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
+    std::string requirements() const override;
 };
 
 
@@ -46,20 +48,23 @@ public:
     std::string className() {return "Knight";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
+    std::string requirements() const override;
 };
 
 class Sage : public Character_Class {
 public:
     std::string className() {return "Sage";}
     bool requiredSkill(PC& player) const override;
-	static std::string description; 
+	static std::string description;
+    std::string requirements() const override;
 };
 
 class Thief : public Character_Class {
 public:
     std::string className() {return "Thief";}
     bool requiredSkill(PC& player) const override;
-	static std::string description; 
+	static std::string description;
+    std::string requirements() const override;
 };
 
 class Wildlander : public Character_Class {
@@ -67,6 +72,7 @@ public:
     std::string className() {return "Wildlander";}
     bool requiredSkill(PC& player) const override;
 	static std::string description;
+    std::string requirements() const override;
 };
 
 #endif //CS202_GROUP_PROJECT_CHARACTER_CLASS

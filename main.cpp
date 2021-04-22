@@ -17,7 +17,7 @@ int main() {
     std::cout << "Your Class is " << example.getClass() << " and Race " << example.getRace();
     std::cout << std::endl;
 
-    if(exampleBard.charClass->requiredSkill(exampleBard))
+    if(example.charClass->requiredSkill(example)&&example.race->requiredSkill(example))
         std::cout << "You have all the skills required" << std::endl;
     else
         std::cout << "You don't have all the skills required" << std::endl;

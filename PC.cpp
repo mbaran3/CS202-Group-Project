@@ -39,17 +39,46 @@ void PC::setClass(std::unique_ptr<Character_Class> setClass) {
     charClass = std::move(setClass);
 }
 //Member functions for character class
-int PC::setEXP(int exp) {
-    return exp;
+void PC::setEXP(int exp) {
+    _exp = exp;
 }
 
-int PC::setGold(int gold ) {
+void PC::setGold(int gold ) {
 
-    return gold;
+    _gold = gold;
 }
 
-int PC::setSTM(int stm) {
-    return stm;
+void PC::setSTM(int stm) {
+    _stm = stm;
+}
+
+
+void PC::resetSkills()
+{
+     military.setKnown(false);
+     dueling.setKnown(false);
+     agility.setKnown(false);
+     alchemy.setKnown(false);
+     arcana.setKnown(false);
+     archery.setKnown(false);
+     athletics.setKnown(false);
+     endurance.setKnown(false);
+     stealth.setKnown(false);
+     awareness.setKnown(false);
+     history.setKnown(false);
+     reasoning.setKnown(false);
+     survival.setKnown(false);
+     willpower.setKnown(false);
+     deception.setKnown(false);
+     empathy.setKnown(false);
+     brawling.setKnown(false);
+     persuasion.setKnown(false);
+     streetwise.setKnown(false);
+     performance.setKnown(false);
+     devotion.setKnown(false);
+     craftsmanship.setKnown(false);
+     runes.setKnown(false);
+     thievery.setKnown(false);
 }
 
 

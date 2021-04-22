@@ -12,6 +12,7 @@ public:
 
     virtual std::string raceName() {return "No race set";}
     virtual bool requiredSkill(PC& player) const = 0;
+    virtual std::string requirements() const = 0;
     std::string _description;
 };
 
@@ -22,6 +23,7 @@ public:
     std::string raceName() {return "Human";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
+    std::string requirements() const override;
 
 };
 
@@ -30,6 +32,7 @@ public:
     std::string raceName() {return "Orcs";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
+    std::string requirements() const override;
 };
 
 class Dwarf : public Race {
@@ -37,6 +40,7 @@ public:
     std::string raceName() {return "Dwarf";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
+    std::string requirements() const override;
 };
 
 class Elf : public Race {
@@ -44,6 +48,7 @@ public:
     std::string raceName() {return "Elf";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
+    std::string requirements() const override;
 };
 
 class Gnome : public Race {
@@ -51,6 +56,7 @@ public:
     std::string raceName() {return "Gnome";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
+    std::string requirements() const override;
 };
 
 class Catfolk : public Race {
@@ -58,7 +64,7 @@ public:
     std::string raceName() {return "Catfolk";}
     bool requiredSkill(PC& player) const override;
     static std::string description;
-
+    std::string requirements() const override; 
 };
 
 

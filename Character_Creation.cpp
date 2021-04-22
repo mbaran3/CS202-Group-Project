@@ -161,9 +161,391 @@ void chooseClass(PC& pc)
     }
 }
 
-void chooseSkills(PC& pc)
+void chooseSkills(PC& pc, int& num)
 {
+    system("CLS");   
+    cout << "You must choose two skills from both your class and race specialties." << endl;
+    cout << "Your Class: " << pc.getClass() << "/ Race: " << pc.getRace() << endl;
+    //prints requirements/specialties of pc race and class
+    cout << pc.charClass->requirements() << endl;
+    cout << pc.race->requirements() << endl;
 
+    cout << "\nThe list of skills available are: \n";
+    cout << "Combat skills: Alchemy, Arcana, Archery, Brawling, Dueling, Military." << endl;
+    cout << "Physical skills: Agility, Athletics, Endurance, Stealth." << endl;
+    cout << "Mental skills: Awareness, History, Reasoning, Survival, Willpower." << endl;
+    cout << "Social skills: Deception, Empathy, Persuasion, Streetwise." << endl;
+    cout << "Craftmanship skills: Devotion, Performance, Runes, Thievery.\n" << endl;
+
+    cout << "Type in a skill you want: ";
+    string skill;
+    getline(cin, skill);
+    if (skill == "Alchemy")
+    {
+        cout << Alchemy::description << endl;
+        if (pc.alchemy.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Alchemy? " << endl;
+            if (yesNo())
+            {
+                pc.alchemy.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Arcana")
+    {
+        cout << Arcana::description << endl;
+        if (pc.arcana.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Arcana? " << endl;
+            if (yesNo())
+            {
+                pc.arcana.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Archery")
+    {
+        cout << Archery::description << endl; 
+        if (pc.archery.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Archery? " << endl;
+            if (yesNo())
+            {
+                pc.archery.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Brawling")
+    {
+        cout << Brawling::description << endl;
+        if (pc.brawling.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+        cout << "would you like to choose Brawling? " << endl;
+        if (yesNo())
+        {
+            pc.brawling.setKnown(true);
+            num++;
+        }
+    }
+    }
+    else if (skill == "Dueling")
+    {
+        cout << Dueling::description << endl; 
+        if (pc.dueling.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Dueling? " << endl;
+            if (yesNo())
+            {
+                pc.dueling.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Military")
+    {
+        cout << Military::description << endl;
+        if (pc.military.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Military? " << endl;
+            if (yesNo())
+            {
+                pc.military.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Agility")
+    {
+        cout << Agility::description << endl; 
+        if (pc.agility.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Agility? " << endl;
+            if (yesNo())
+            {
+                pc.agility.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Athletics")
+    {
+        cout << Athletics::description << endl;
+        if (pc.athletics.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Athletics? " << endl;
+            if (yesNo())
+            {
+                pc.athletics.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Endurance")
+    {
+        cout << Endurance::description << endl;
+        if (pc.endurance.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Endurance? " << endl;
+            if (yesNo())
+            {
+                pc.endurance.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Stealth")
+    {
+        cout << Stealth::description << endl; 
+        if (pc.stealth.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Stealth? " << endl;
+            if (yesNo())
+            {
+                pc.stealth.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Awareness")
+    {
+        cout << Awareness::description << endl;
+        if (pc.awareness.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Awareness? " << endl;
+            if (yesNo())
+            {
+                pc.awareness.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "History")
+    {
+        cout << History::description << endl; 
+        if (pc.history.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose History? " << endl;
+            if (yesNo())
+            {
+                pc.history.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Reasoning")
+    {
+        cout << Reasoning::description << endl; 
+        if (pc.reasoning.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Reasoning? " << endl;
+            if (yesNo())
+            {
+                pc.reasoning.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Survival")
+    {
+        cout << Survival::description << endl; 
+        if (pc.survival.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Survival? " << endl;
+            if (yesNo())
+            {
+                pc.survival.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Willpower")
+    {
+        cout << Willpower::description << endl;
+        if (pc.willpower.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Willpower? " << endl;
+            if (yesNo())
+            {
+                pc.willpower.setKnown(true);
+                num++;
+            }
+        }
+    }   
+    
+    else if (skill == "Deception")
+    {
+        cout << Deception::description << endl; 
+        if (pc.deception.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Deception? " << endl;
+            if (yesNo())
+            {
+                pc.deception.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else if (skill == "Empathy")
+    {
+        cout << Empathy::description << endl; 
+        if (pc.empathy.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Empathy? " << endl;
+            if (yesNo())
+            {
+                pc.empathy.setKnown(true);
+                num++;
+            }
+        }
+    }   
+    else if (skill == "Persuasion")
+    {
+        cout << Persuasion::description << endl; 
+        if (pc.persuasion.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Persuasion? " << endl;
+            if (yesNo())
+            {
+                pc.persuasion.setKnown(true);
+                num++;
+            }
+        }
+    }   
+    else if (skill == "Streetwise")
+    {
+        cout << Streetwise::description << endl; 
+        if (pc.streetwise.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Streetwise? " << endl;
+            if (yesNo())
+            {
+                pc.streetwise.setKnown(true);
+                num++;
+            }
+        }
+    }   
+    else if (skill == "Craftsmanship")
+    {
+        cout << Craftsmanship::description << endl; 
+        if (pc.craftsmanship.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Craftsmanship? " << endl;
+            if (yesNo())
+            {
+                pc.craftsmanship.setKnown(true);
+                num++;
+            }
+        }
+    }         
+    else if (skill == "Devotion")
+    {
+        cout << Devotion::description << endl; 
+        if (pc.devotion.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Devotion? " << endl;
+            if (yesNo())
+            {
+                pc.devotion.setKnown(true);
+                num++;
+            }
+        }
+    }         
+    else if (skill == "Performance")
+    {
+        cout << Performance::description << endl; 
+        if (pc.performance.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Performance? " << endl;
+            if (yesNo())
+            {
+                pc.performance.setKnown(true);
+                num++;
+            }
+        }
+    }         
+    else if (skill == "Runes")
+    {
+        cout << Runes::description << endl; 
+        if (pc.runes.isKnown()) cout << "You already chose this skill!" << endl; 
+        else {
+            cout << "would you like to choose Runes? " << endl;
+            if (yesNo())
+            {
+                pc.runes.setKnown(true);
+                num++;
+            }
+        }
+    }         
+    else if (skill == "Thievery")
+    {
+        cout << Thievery::description << endl;
+        if (pc.thievery.isKnown()) cout << "You already chose this skill!" << endl;
+        else {
+            cout << "would you like to choose Thievery? " << endl;
+            if (yesNo())
+            {
+                pc.thievery.setKnown(true);
+                num++;
+            }
+        }
+    }
+    else cout << "That is not a valid skill name, try again." << endl;
+    cout << endl;
+    if (num < 5)
+    {
+        cout << "You only have " << num << " skills, you need at least 5!" << endl;
+        while (cin.get() != '\n');
+        chooseSkills(pc, num);
+    }
+    else if (num < 8)
+    {
+        cout << "Are you finished choosing skills?\n";
+        cout << "You have " << num << " skills and " << 28 - num * 2 << " max stamina" << endl;
+        if (yesNo())
+        {
+            if (pc.charClass->requiredSkill(pc) && pc.race->requiredSkill(pc)) return;
+            else
+            {
+                cout << "You do not meet the required skill number for your class and race!" << endl;
+                cout << "Please try again." << endl;
+                pc.resetSkills();
+                num = 0;
+                while (cin.get() != '\n');
+                chooseSkills(pc, num);
+            }
+        }
+        else chooseSkills(pc, num);
+    }
+    else
+    {
+        if (pc.charClass->requiredSkill(pc) && pc.race->requiredSkill(pc))
+        {
+            cout << "You have the max amount of skills." << endl;
+            cout << "You have " << num << " skills and " << 28 - num * 2 << " max stamina" << endl;
+            cout << "Would you like to rechoose your skills?" << endl;
+            if (yesNo())
+            {
+                pc.resetSkills();
+                num = 0;
+                while (cin.get() != '\n');
+                chooseSkills(pc, num);
+            }
+            else return;
+        }
+        else
+        {
+            cout << "You do not meet the required skill number for your class and race!" << endl;
+            cout << "Please try again." << endl;
+            pc.resetSkills();
+            num = 0;
+            while (cin.get() != '\n');
+            chooseSkills(pc, num);
+        }
+    }
 }
 //function used to initiate character creation 
 
@@ -219,7 +601,9 @@ void Character_Creation(PC& pc) {
     cout << "After that you may choose the rest freely. " << endl;
     cout << "\nContinue to choose your skills." << endl;
     while (cin.get() != '\n');
-    chooseSkills(pc);
+    int skillNum=0;
+    chooseSkills(pc,skillNum);
+    pc.setSTM(28 - skillNum * 2);
 }
 
 

@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CS202_Group_Project main.cpp  "PC.h" "PC.cpp" "Skill.cpp"
         "Skill.hpp" "Character_Creation.cpp" "Character_Class.h" 
-        "Character_Class.cpp" "SkillDescription.cpp" "CharacterClassDescriptions.cpp" "CharacterRaceDescriptions.cpp" "Race.cpp" "Race.hpp")
+        "Character_Class.cpp" "SkillDescription.cpp" "CharacterClassDescriptions.cpp" "CharacterRaceDescriptions.cpp" 
+        "Race.cpp" "Race.hpp" "CharacterClassRequirements.cpp" "CharacterRaceRequirements.cpp")

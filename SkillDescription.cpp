@@ -80,7 +80,7 @@ std::string History::description =
         "knowledge of all things\n"
         "historic, from family heritages\n"
         "to heraldry to the history of\n"
-        "Territory’s baronies.";
+        "Territory's baronies.";
 
 std::string Reasoning::description =
         "Reasoning represents your\n"
@@ -148,7 +148,7 @@ std::string Runes::description =
         "allowing you to wield shards in ways not defined by their runes.\n"
         "If you have the runes skill, it is assumed that you have come\n"
         "across a number of runebound shards in your time as a hero and\n"
-        "even have a small collection of your own—blasting, lightning,\n"
+        "even have a small collection of your own-blasting, lightning,\n"
         "and growth.";
 
 std::string Thievery::description =
