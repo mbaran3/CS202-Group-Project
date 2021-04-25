@@ -6,21 +6,16 @@
 
 int main() {
 
+    //Character creation example
     PC example;
     Character_Creation(example);
 
     //Creates a PC
-    PC exampleBard;
-    exampleBard.setClass(std::make_unique<Bard>());
-    exampleBard.deception.setKnown(false);
-    exampleBard.setRace(std::make_unique<Elf>());
-    std::cout << "Your Class is " << example.getClass() << " and Race " << example.getRace();
+   
+    std::cout << "\nYour Class is " << example.getClass() << " and Race " << example.getRace();
     std::cout << std::endl;
 
-    if(example.charClass->requiredSkill(example)&&example.race->requiredSkill(example))
-        std::cout << "You have all the skills required" << std::endl;
-    else
-        std::cout << "You don't have all the skills required" << std::endl;
+
 
     return 0;
 }

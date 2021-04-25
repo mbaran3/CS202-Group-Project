@@ -63,7 +63,7 @@ std::string Endurance::description =
         "physical damage.";
 
 std::string Stealth::description =
-        "Stealth represents your ability to move about undetected— "
+        "Stealth represents your ability to move about undetected- "
         "both silently and unseen. Your talent for being stealthy may "
         "also grant you an advantage in noticing others who wish "
         "to go undetected.";
